@@ -1,0 +1,25 @@
+{
+    "name": "twf/jumia",
+    "description": "",
+    "authors": [
+        {
+            "name": "Mostafa Hamdi",
+            "email": "mostafahamdi235@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Jumia\\Providers\\JumiaServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Jumia\\": ""
+        }
+    }
+}
